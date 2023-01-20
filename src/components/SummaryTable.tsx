@@ -26,7 +26,13 @@ export const SummaryTable = (): JSX.Element => {
       </div>
       <div className="grid grid-rows-7 grid-flow-col gap-3 overflow-auto">
         {SUMMARY_DATES.map(date => {
-          return <HabitDay key={date.toString()} />
+          return (
+            <HabitDay
+              key={date.toString()}
+              amount={5}
+              completed={Math.round(Math.random() * 5)}
+            />
+          )
         })}
 
         {AMOUNT_OF_DAYS_TO_FILL > 0 &&
