@@ -5,7 +5,7 @@ const WEEK_DAYS = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S']
 
 const SUMMARY_DATES = generateDatesFromYearBeginning()
 
-const MINIMUM_SUMMARY_DATES_SIZE = 22 * 7
+const MINIMUM_SUMMARY_DATES_SIZE = 17 * 7
 
 const AMOUNT_OF_DAYS_TO_FILL = MINIMUM_SUMMARY_DATES_SIZE - SUMMARY_DATES.length
 
